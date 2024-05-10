@@ -1,0 +1,13 @@
+To run this program correctly, you will need to set several option parameters:
+
+The options for the program are:
+-n <number>                this sets the number of worker processes to launch.
+-s <number>                this sets how many workers can run at once.
+-t <number>                this sets the maximum time in seconds a worker could run for.
+-f <output_file_name.txt>  this sets the name of the file to output to.
+
+Example: ./oss -n 3 -s 2 -t 5 -f "output.txt"
+
+
+Git was used for verson control. -see git_history.txt
+
